@@ -6,6 +6,7 @@ class AccountActivationsController < ApplicationController
       log_in user
       # テストです
       # テストです２
+      # testです
       flash[:success] = "Account activated!"
       redirect_to user
     else
